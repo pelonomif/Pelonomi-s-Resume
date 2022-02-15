@@ -3,30 +3,42 @@
   <head>
     <title> Pelonomi's Resume</title>
     <link rel="stylesheet" type="text/css" href="css\stylesheet.css">
+    
   </head>
+   <style>
+            body{
+                background-image: url("images/angel.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+     </style>   
+
   <body>
-    <header>
+    <div class="profile"> 
+    <header id="heading">
         <h1>Pelonomi Princess Finger</h1>   
-            <p> I am an Aspiring Software Developer</p>
-    </header>      
-            
-    <aside>       
-        <img src="images\Pelo.jpeg" alt="Pelonomi's Profile Photo" width="200" height="200">
-           <hr>
-        <p>
-            <ul>
-                <li> <a href="#education">Education</a></li>
-                <li> <a href="#workexperience">Work Experience</a></li>
-                <li> <a href="#skills">Skills</a></li>
-                <li> <a href="#contactinformation">Contact Information</a></li>
-            </ul>
-        </p>
-    </aside>
-         
-    <section>
-        h2{
-            color:green;
-        }
+            <p class="selfintro"> I am an Aspiring Software Developer</p>
+            <img id="headshot" src="images\Pelo.jpeg" alt="Pelonomi's Profile Photo" width="200" height="200">
+     </header> 
+   </div>  
+     
+<main>
+    <div id="sidebar">
+        <nav>
+            <p>
+                <h2 id="Menu">Menu</h2>
+                <ul class="navmenu">
+                    <li> <a href="#education">Education</a></li>
+                    <li> <a href="#workexperience">Work Experience</a></li>
+                    <li> <a href="#skills">Skills</a></li>
+                    <li> <a href="#contactinformation">Contact Information</a></li>
+                </ul>
+            </p>
+        </nav> 
+    </div>
+<div id="contents">
+        <section id="right section">
+
         <h2 id="education"><img src="images\mortarboard.png" width="20" height="20"> Education</h2>
             <h3><a href="https://www.codespace.co.za/">Codespace Academy </a> </h3>
                 <h4>Intro to Web certificate</h4>
@@ -50,14 +62,14 @@
                     <li>HTML</li>
                     <li>CSS</li>
                 </ul>
-                <p1>I am a very big font</p>
-                <p1> I am a very small font</p1>
-    </section>
-
+    </section> 
+</div> 
+</main>         
     <footer>
         <h2 id="contactinformation"> <img src="images\phone-call.png" width="20" height="20"> Contact Information</h2>
                 <p><img src="images\linkedin.png" width="20" height="20"> <a href="https://www.linkedin.com/in/pelonomi-finger-825265156/"> Pelonomi Finger</a> </p>
                 <p><img src="images\gmail.png" width="20" height="20"> <a href="mailto:mailto:pelonomif@gmail.com"> pelonomif@gmail.com</a></p>
     </footer>
-  </body>
+    </body>
+    
 </html>
